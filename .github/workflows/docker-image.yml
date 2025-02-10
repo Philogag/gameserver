@@ -25,6 +25,5 @@ jobs:
         run: |
           cd minecraft
           ./build-image.sh 8  ghcr.io/${{github.actor}}/gameserver:mc-java-8
-          ./build-image.sh 16 ghcr.io/${{github.actor}}/gameserver:mc-java-16
           ./build-image.sh 17 ghcr.io/${{github.actor}}/gameserver:mc-java-17
           ./build-image.sh 21 ghcr.io/${{github.actor}}/gameserver:mc-java-21

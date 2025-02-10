@@ -3,7 +3,7 @@
 ## Support
 
 + Java Version
-    + [x] 8/16/17/21 support
+    + [x] 8/17/21 support
 + Server
     + [x] Vanilla
     + [x] Fabric
