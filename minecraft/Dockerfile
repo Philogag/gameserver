@@ -1,8 +1,7 @@
 FROM alpine:latest
 ARG  JAVA_VERSION
 
-RUN sed -i 's#https\?://dl-cdn.alpinelinux.org/alpine#https://mirrors.tuna.tsinghua.edu.cn/alpine#g' /etc/apk/repositories \
- && apk add --no-cache \
+RUN apk add --no-cache \
         tzdata \
         curl \
         jq \
