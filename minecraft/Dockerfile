@@ -12,7 +12,7 @@ ADD script /script
 RUN chmod +x /script/*.sh
 
 # vanilla # fabric # forge
-ENV MC_TYPE=vanilla
+ENV MC_LOADER=vanilla
 ENV MC_VERSION=1.20.1
 ENV MC_EULA=true
 ENV MC_HOME=/minecraft

@@ -7,11 +7,12 @@ services:
     image: ghcr.io/philogag/gameserver:mc-java-21
     container_name: minecraft-1.21.1
     environment:
-      MC_TYPE: fabric # fabric # forge
+      MC_LOADER: fabric # fabric # forge
       MC_VERSION: 1.21.1
       MC_EULA: true
       MC_MEM_MAX: 4G
       MC_MEM_MIN: 2G
+      MC_MOD_MODRINTH: carpetskyadditions-reborn,gca,carpet-tis-addition,no-chat-reports,tweakeroo
     ports:
       - 25565:25565
     volumes:

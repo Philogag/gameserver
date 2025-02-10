@@ -5,6 +5,6 @@ if [ ! -f ${MC_HOME}/run.sh ]; then
     fi
 fi
 
-echo eula=${MC_EULA} > ${MC_HOME}/eula.txt
+/script/update.sh
 
 /bin/sh -x ${MC_HOME}/run.sh
